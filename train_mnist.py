@@ -59,7 +59,7 @@ class VolData(Dataset):
         return im
         
 
-def train(num_epochs=10, batch_size=128, learning_rate=0.05):
+def train(num_epochs=30, batch_size=32, learning_rate=0.05):
     # set up an MNIST dataset
     train_dataset = MNIST(root='.', train=True, transform=transforms.Compose([
         transforms.ToTensor(),
@@ -68,7 +68,7 @@ def train(num_epochs=10, batch_size=128, learning_rate=0.05):
     test_dataset = MNIST(root='.', train=False, download=True)
 
     print(train_dataset[0])
-    return
+    #return
 
     # set up dataloader
     sampler = DistributedSampler(train_dataset)
@@ -133,7 +133,7 @@ def train(num_epochs=10, batch_size=128, learning_rate=0.05):
         
         metrics = pd.DataFrame({'epoch_losses': epoch_losses, 'elapsed_time':
         elapsed_times})
-        metrics.to_csv('metrics.csv')
+        metrics.to_csv('metricsppn1.csv')
 
     return iter_losses, epoch_losses
 
