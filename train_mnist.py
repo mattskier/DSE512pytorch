@@ -92,6 +92,7 @@ def train(num_epochs=30, batch_size=32, learning_rate=0.05):
 
     # loop for some epochs
     iter_losses = []
+    accuracies = []
     epoch_losses = []
     elapsed_times = []
     epbar = range(num_epochs)
@@ -100,6 +101,8 @@ def train(num_epochs=30, batch_size=32, learning_rate=0.05):
     for ep in epbar:
         ep_loss = 0.0
         num_iters = 0
+        total = 0
+        correct = 0
         for X, Y in train_dataloader:
             # zero the gradients  (resets the optimizer)
             optimizer.zero_grad()
@@ -119,10 +122,16 @@ def train(num_epochs=30, batch_size=32, learning_rate=0.05):
 
             # step the optimizer
             optimizer.step()
+            
+            # computes training accuracy
+            _, predicted = torch.max(pred.data, 1)
+            total += Y.size(0)
+            correct += (predicted == Y).sum().item()            
 
             num_iters += 1
 
         ep_loss /= num_iters
+        accuracy = correct/total
 
         if rank == 0:
             #epbar.set_postfix(loss=ep_loss)
@@ -130,10 +139,11 @@ def train(num_epochs=30, batch_size=32, learning_rate=0.05):
             perf_counter() - start)
         epoch_losses.append(ep_loss)
         elapsed_times.append(perf_counter()  - start)
+        accuracies.append(accuracy)
         
         metrics = pd.DataFrame({'epoch_losses': epoch_losses, 'elapsed_time':
-        elapsed_times})
-        metrics.to_csv('metricsppn1.csv')
+        elapsed_times, 'Accuracy': accuracies })
+        metrics.to_csv(f'metricsppn{world_size}.csv')
 
     return iter_losses, epoch_losses
 

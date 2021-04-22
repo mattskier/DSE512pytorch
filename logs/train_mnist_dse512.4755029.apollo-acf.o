@@ -1,0 +1,371 @@
+MKLROOT=/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/mkl
+MANPATH=/sw/acf/man:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/impi/2018.1.163/man:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/man/en_US:/opt/moab/share/man:/usr/share/man:/usr/local/share/man
+XALT_ETC_DIR=/sw/cs400_centos7.3_acfsoftware/xalt/0.7.5/centos7.3/etc
+HOSTNAME=acf-sc100
+PBS_VERSION=TORQUE-6.1.1.1
+TG_CLUSTER_PFS=/lustre/haven/user/mhoran
+_MODULESBEGINENV_=/tmp/tmp.oDecEnvGmR
+INTEL_LICENSE_FILE=/sw/cs400_centos7.3_optsoftware/intel/licenses/
+IPPROOT=/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/ipp
+MPICH_HOME=/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/impi/2018.1.163/intel64
+SHELL=/bin/bash
+HISTSIZE=1000
+PBS_JOBNAME=train_mnist_dse512
+CONDA_SHLVL=1
+PERL5LIB=/nics/b/home/mhoran/perl5/lib/perl5:/opt/moab/lib/perl5:/opt/moab/lib/perl5
+LIBRARY_PATH=/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/impi/2018.1.163/intel64/lib:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/compiler/lib/intel64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/ipp/lib/intel64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/mkl/lib/intel64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/mpi/intel64/lib:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/tbb/lib/intel64
+ALT_LINKER=/sw/cs400_centos7.3_acfsoftware/xalt/0.7.5/centos7.3/bin/ld
+XALT_DIR=/sw/cs400_centos7.3_acfsoftware/xalt/0.7.5/centos7.3
+CONDA_PROMPT_MODIFIER=(pytorch181) 
+CUE_SCRATCH=/lustre/haven/user/mhoran
+PBS_ENVIRONMENT=PBS_BATCH
+FPATH=/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/impi/2018.1.163/intel64/include:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/compiler/include:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/compiler/include/intel64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/mkl/include
+INTEL_ARCH=intel64
+MASTER_PORT=12345
+OLDPWD=/nics/b/home/mhoran
+QTDIR=/usr/lib64/qt-3.3
+PERL_MB_OPT=--install_base /nics/b/home/mhoran/perl5
+QTINC=/usr/lib64/qt-3.3/include
+PBS_O_WORKDIR=/lustre/haven/proj/UTK0150/mhoran/assignment4/DSE512pytorch
+QT_GRAPHICSSYSTEM_CHECKED=1
+USER=mhoran
+PBS_TASKNUM=1
+ANACONDA3_LIB=-L/sw/cs400_centos7.3_acfsoftware/anaconda3/4.4.0/centos7.3_gnu6.3.0/anaconda3-4.4.0/lib
+LD_LIBRARY_PATH=/sw/cs400_centos7.3_acfsoftware/anaconda3/4.4.0/centos7.3_gnu6.3.0/lib:/sw/cs400_centos7.3_acfsoftware/anaconda3/4.4.0/centos7.3_gnu6.3.0/anaconda3-4.4.0/lib:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/impi/2018.1.163/intel64/lib:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/compiler/lib/intel64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/ipp/lib/intel64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/mkl/lib/intel64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/mpi/intel64/lib:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/tbb/lib/intel64
+PBS_O_HOME=/nics/b/home/mhoran
+CONDA_EXE=/sw/acf/anaconda3/4.4.0/centos7.3_gnu6.3.0/anaconda3-4.4.0/bin/conda
+CPATH=/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/impi/2018.1.163/intel64/include:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/mkl/include:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/tbb/include
+PBS_WALLTIME=1800
+PBS_MOMPORT=15003
+PBS_GPUFILE=/var/spool/torque/aux//4755029.apollo-acfgpu
+ANACONDA3_DIR=/sw/cs400_centos7.3_acfsoftware/anaconda3/4.4.0/centos7.3_gnu6.3.0/anaconda3-4.4.0
+_CE_CONDA=
+PBS_O_QUEUE=batch
+CPP=icc -E
+SCRATCHDIR=/lustre/haven/user/mhoran
+MASTER_ADDR=acf-sc100
+ANACONDA3_SH=/sw/cs400_centos7.3_acfsoftware/anaconda3/4.4.0/centos7.3_gnu6.3.0/anaconda3-4.4.0/etc/profile.d/conda.sh
+BEGINENV=99
+NLSPATH=/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/compiler/lib/intel64/locale/%l_%t/%N
+PATH=/lustre/haven/proj/UTK0150/envs/pytorch181/bin:/sw/acf/anaconda3/4.4.0/centos7.3_gnu6.3.0/anaconda3-4.4.0/condabin:/sw/cs400_centos7.3_acfsoftware/anaconda3/4.4.0/centos7.3_gnu6.3.0/bin:/sw/cs400_centos7.3_acfsoftware/anaconda3/4.4.0/centos7.3_gnu6.3.0/anaconda3-4.4.0/bin:/usr/local/bin:/usr/share/Modules/bin:/opt/moab/bin:/usr/local/bin:/usr/lib64/qt-3.3/bin:/nics/b/home/mhoran/perl5/bin:/sw/cs400_centos7.3_acfsoftware/xalt/0.7.5/centos7.3/bin:/sw/acf/bin:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/impi/2018.1.163/intel64/bin:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/bin/intel64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/mpi/bin64/intel64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/mpi/bin64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/advisor_2018.1.0.523188/bin64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/inspector_2018.1.0.522981/bin64:/nics/a/proj/nics/support/bin:/usr/share/Modules/bin:/opt/moab/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/nics/b/home/mhoran/.local/bin:/nics/b/home/mhoran/bin:/nics/b/home/mhoran/.local/bin:/nics/b/home/mhoran/bin
+PBS_O_LOGNAME=mhoran
+MAIL=/var/spool/mail/mhoran
+PBS_O_LANG=en_US.UTF-8
+PBS_JOBCOOKIE=EEC3771755DBEB5C09903A97E6CCB912
+CONDA_PREFIX=/lustre/haven/proj/UTK0150/envs/pytorch181
+TBBROOT=/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/tbb
+PWD=/lustre/haven/proj/UTK0150/mhoran/assignment4/DSE512pytorch
+F90=ifort
+_LMFILES_=/sw/acf-opt/modulefiles/moab/9.1.1:/sw/acf-opt/modulefiles/pbstools:/sw/acf-opt/modulefiles/intel-compilers/2018.1.163:/sw/acf-opt/modulefiles/intel-mpi/2018.1.163:/sw/acf-opt/modulefiles/PE-intel:/sw/acf/modulefiles/xalt/0.7.5:/sw/acf/modulefiles/DefApps:/sw/acf/modulefiles/anaconda3/4.4.0
+XALT_TRANSMISSION_STYLE=directdb
+LANG=C
+PBS_NODENUM=0
+TG_CLUSTER_LUSTRE=/lustre/haven/user/mhoran
+MOABHOMEDIR=/opt/moab
+MODULEPATH=/usr/share/Modules/modulefiles:/opt/modulefiles:/sw/acf/modulefiles:/sw/acf-utk/modulefiles:/sw/acf-ut/modulefiles:/sw/acf-opt/modulefiles:/sw/acf-etsu/modulefiles
+PBS_NUM_NODES=1
+KDEDIRS=/usr
+LOADEDMODULES=moab/9.1.1:pbstools:intel-compilers/2018.1.163:intel-mpi/2018.1.163:PE-intel:xalt/0.7.5:DefApps:anaconda3/4.4.0
+PE_COMPILER=intel
+PBS_O_SHELL=/bin/bash
+F77=ifort
+CUE_SCRATCH_TYPE=lustre
+PBS_JOBID=4755029.apollo-acf
+_CE_M=
+ENVIRONMENT=BATCH
+HISTCONTROL=ignoredups
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+CXX=icpc
+HOME=/nics/b/home/mhoran
+SHLVL=2
+PBS_O_HOST=acf-login5.acf.nics.utk.edu
+FC=ifort
+PBS_VNODENUM=0
+PERL_LOCAL_LIB_ROOT=:/nics/b/home/mhoran/perl5
+CONDA_PYTHON_EXE=/sw/acf/anaconda3/4.4.0/centos7.3_gnu6.3.0/anaconda3-4.4.0/bin/python
+LOGNAME=mhoran
+PYTHONPATH=/sw/cs400_centos7.3_acfsoftware/xalt/0.7.5/centos7.3/libexec
+TG_CLUSTER_SCRATCH=/lustre/haven/user/mhoran
+CVS_RSH=ssh
+QTLIB=/usr/lib64/qt-3.3/lib
+PBS_QUEUE=batch
+XDG_DATA_DIRS=/nics/b/home/mhoran/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+MODULESHOME=/usr/share/Modules
+I_MPI_HYDRA_BOOTSTRAP=pbsdsh
+CONDA_DEFAULT_ENV=pytorch181
+ANACONDA3_INC=-I/sw/cs400_centos7.3_acfsoftware/anaconda3/4.4.0/centos7.3_gnu6.3.0/anaconda3-4.4.0/include
+PBS_O_MAIL=/var/spool/mail/mhoran
+PBS_O_SUBMIT_FILTER=/usr/local/sbin/torque_submitfilter
+PBS_MICFILE=/var/spool/torque/aux//4755029.apollo-acfmic
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+PBS_NP=2
+CC=icc
+PBS_O_SERVER=apollo-acf
+PBS_NUM_PPN=2
+QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
+I_MPI_ARCH=intel64
+INCLUDE=/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/ipp/include:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/compiler/include/intel64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/mkl/include
+LMOD_DIR=/sw/cs400_centos7.3_acfsoftware/xalt/0.7.5/centos7.3
+PBS_NODEFILE=/var/spool/torque/aux//4755029.apollo-acf
+PERL_MM_OPT=INSTALL_BASE=/nics/b/home/mhoran/perl5
+PBS_O_PATH=/usr/local/bin:/usr/lib64/qt-3.3/bin:/nics/b/home/mhoran/perl5/bin:/sw/cs400_centos7.3_acfsoftware/xalt/0.7.5/centos7.3/bin:/sw/acf/bin:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/impi/2018.1.163/intel64/bin:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/bin/intel64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/mpi/bin64/intel64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/mpi/bin64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/advisor_2018.1.0.523188/bin64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/inspector_2018.1.0.522981/bin64:/nics/a/proj/nics/support/bin:/usr/share/Modules/bin:/opt/moab/bin:/usr/local/bin:/bin:/usr/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/nics/b/home/mhoran/.local/bin:/nics/b/home/mhoran/bin
+MODULESBEGINENV=/tmp/tmp.zPmozqzrtz
+I_MPI_ROOT=/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/impi/2018.1.163
+BASH_FUNC_module()=() {  eval `/usr/bin/modulecmd bash $*`
+}
+_=/bin/env
+World size: 2
+(tensor([[[0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0118, 0.0706, 0.0706, 0.0706,
+          0.4941, 0.5333, 0.6863, 0.1020, 0.6510, 1.0000, 0.9686, 0.4980,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.1176, 0.1412, 0.3686, 0.6039, 0.6667, 0.9922, 0.9922, 0.9922,
+          0.9922, 0.9922, 0.8824, 0.6745, 0.9922, 0.9490, 0.7647, 0.2510,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.1922,
+          0.9333, 0.9922, 0.9922, 0.9922, 0.9922, 0.9922, 0.9922, 0.9922,
+          0.9922, 0.9843, 0.3647, 0.3216, 0.(tensor([[[0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0118, 0.0706, 0.0706, 0.0706,
+          0.4941, 0.5333, 0.6863, 0.1020, 0.6510, 1.0000, 0.9686, 0.4980,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.1176, 0.1412, 0.3686, 0.6039, 0.6667, 0.9922, 0.9922, 0.9922,
+          0.9922, 0.9922, 0.8824, 0.6745, 0.9922, 0.9490, 0.7647, 0.2510,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.1922,
+          0.9333, 0.9922, 0.9922, 0.9922, 0.9922, 0.9922, 0.9922, 0.9922,
+          0.9922, 0.9843, 0.3647, 0.3216, 0.3216, 0.2196, 0.1529, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0706,
+          0.8588, 0.9922, 0.9922, 0.9922, 0.9922, 0.9922, 0.7765, 0.7137,
+          0.9686, 0.9451, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.3137, 0.6118, 0.4196, 0.9922, 0.9922, 0.8039, 0.0431, 0.0000,
+          0.1686, 0.6039, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0549, 0.0039, 0.6039, 0.9922, 0.3529, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.5451, 0.9922, 0.7451, 0.0078, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0431, 0.7451, 0.9922, 0.2745, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.1373, 0.9451, 0.8824, 0.6275,
+          0.4235, 0.0039, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.3176, 0.9412, 0.9922,
+          0.9922, 0.4667, 0.0980, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.03216, 0.2196, 0.1529, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0706,
+          0.8588, 0.9922, 0.9922, 0.9922, 0.9922, 0.9922, 0.7765, 0.7137,
+          0.9686, 0.9451, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.3137, 0.6118, 0.4196, 0.9922, 0.9922, 0.8039, 0.0431, 0.0000,
+          0.1686, 0.6039, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0549, 0.0039, 0.6039, 0.9922, 0.3529, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.5451, 0.9922, 0.7451, 0.0078, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0431, 0.7451, 0.9922, 0.2745, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.1373, 0.9451, 0.8824, 0.6275,
+          0.4235, 0.0039, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.3176, 0.9412, 0.9922,
+          0.9922, 0.4667, 0.0980, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.1765, 0.7294,
+          0.9922, 0.9922, 0.5882, 0.1059, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0627,
+          0.3647, 0.9882, 0.9922, 0.7333, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.9765, 0.9922, 0.9765, 0.2510, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.1804, 0.5098,
+          0.7176, 0.9922, 0.9922, 0.8118, 0.0078, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.1529, 0.5804, 0.8980, 0.9922,
+          0.9922, 0.9922, 0.9804, 0.7137, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0941, 0.4471, 0.8667, 0.9922, 0.9922, 0.9922,
+          0.9922, 0.7882, 0.3059, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0902, 0.2588, 0.8353, 0.9922, 0.9922, 0.9922, 0.9922, 0.7765,
+          0.3176, 0.0078, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0706, 0.6706,
+          0.8588, 0.9922, 0.9922, 0.9922, 0.9922, 0.7647, 0.3137, 0.0353,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.215000, 0.0000, 0.1765, 0.7294,
+          0.9922, 0.9922, 0.5882, 0.1059, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0627,
+          0.3647, 0.9882, 0.9922, 0.7333, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.9765, 0.9922, 0.9765, 0.2510, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.1804, 0.5098,
+          0.7176, 0.9922, 0.9922, 0.8118, 0.0078, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.1529, 0.5804, 0.8980, 0.9922,
+          0.9922, 0.9922, 0.9804, 0.7137, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0941, 0.4471, 0.8667, 0.9922, 0.9922, 0.9922,
+          0.9922, 0.7882, 0.3059, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0902, 0.2588, 0.8353, 0.9922, 0.9922, 0.9922, 0.9922, 0.7765,
+          0.3176, 0.0078, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0706, 0.6706,
+          0.8588, 0.9922, 0.9922, 0.9922, 0.9922, 0.7647, 0.3137, 0.0353,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.2157, 0.6745, 0.8863, 0.9922,
+          0.9922, 0.9922, 0.9922, 0.9569, 0.5216, 0.0431, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.5333, 0.9922, 0.9922, 0.9922,
+          0.8314, 0.5294, 0.5176, 0.0627, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000]]]), 5)
+7, 0.6745, 0.8863, 0.9922,
+          0.9922, 0.9922, 0.9922, 0.9569, 0.5216, 0.0431, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.5333, 0.9922, 0.9922, 0.9922,
+          0.8314, 0.5294, 0.5176, 0.0627, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000],
+         [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+          0.0000, 0.0000, 0.0000, 0.0000]]]), 5)
+epoch 0 num_iters 938 loss 2.1195894691989876 elapsed time (s) 9.348679654300213
+epoch 1 num_iters 938 loss 1.3990239055553224 elapsed time (s) 18.644201999530196
+epoch 2 num_iters 938 loss 1.190380053288901 elapsed time (s) 27.917064474895597
+epoch 3 num_iters 938 loss 1.1039770908320128 elapsed time (s) 37.75172249786556
+epoch 4 num_iters 938 loss 1.0511967358050316 elapsed time (s) 47.08450119942427
+epoch 5 num_iters 938 loss 1.0188094423269667 elapsed time (s) 56.37264160439372
+epoch 6 num_iters 938 loss 0.9929384617154786 elapsed time (s) 65.67932910658419
+epoch 7 num_iters 938 loss 0.9735470635296185 elapsed time (s) 74.96699374355376
+epoch 8 num_iters 938 loss 0.9591544184095061 elapsed time (s) 84.28440279699862
+epoch 9 num_iters 938 loss 0.947500442835822 elapsed time (s) 93.58090068399906
+epoch 10 num_iters 938 loss 0.9377704061297719 elapsed time (s) 102.85860601440072
+epoch 11 num_iters 938 loss 0.925044341159782 elapsed time (s) 112.52999273687601
+epoch 12 num_iters 938 loss 0.9054254476131915 elapsed time (s) 121.79975684173405
+epoch 13 num_iters 938 loss 0.8963610484465353 elapsed time (s) 131.11307358928025
+epoch 14 num_iters 938 loss 0.8891881291291861 elapsed time (s) 140.3678884934634
+epoch 15 num_iters 938 loss 0.8796864295882711 elapsed time (s) 149.64766129478812
+epoch 16 num_iters 938 loss 0.8727662243060211 elapsed time (s) 158.91569877415895
+epoch 17 num_iters 938 loss 0.8657037804502923 elapsed time (s) 168.16987815871835
+epoch 18 num_iters 938 loss 0.8559074296689491 elapsed time (s) 177.44119784608483
+epoch 19 num_iters 938 loss 0.847904468554932 elapsed time (s) 186.74406367354095
+epoch 20 num_iters 938 loss 0.8450190051278071 elapsed time (s) 196.01482210308313
+epoch 21 num_iters 938 loss 0.8386500836181234 elapsed time (s) 205.31425613164902
+epoch 22 num_iters 938 loss 0.8362100821758892 elapsed time (s) 214.58306409418583
+epoch 23 num_iters 938 loss 0.8359400709110029 elapsed time (s) 223.98790745809674
+epoch 24 num_iters 938 loss 0.8288325937127253 elapsed time (s) 233.2637782599777
+epoch 25 num_iters 938 loss 0.8280756270834632 elapsed time (s) 242.52927825413644
+epoch 26 num_iters 938 loss 0.8256378922063404 elapsed time (s) 251.79204292036593
+epoch 27 num_iters 938 loss 0.823218730689366 elapsed time (s) 261.06499628536403
+epoch 28 num_iters 938 loss 0.818804088431889 elapsed time (s) 270.3567651733756
+epoch 29 num_iters 938 loss 0.8151344066616822 elapsed time (s) 279.61287524551153
